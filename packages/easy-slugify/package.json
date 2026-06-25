@@ -1,0 +1,32 @@
+{
+  "name": "easy-slugify",
+  "version": "1.0.0",
+  "description": "A lightweight and fast package to slugify strings with TypeScript support.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "slugify",
+    "slug",
+    "string",
+    "url",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT"
+}
