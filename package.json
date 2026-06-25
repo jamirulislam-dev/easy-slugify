@@ -11,5 +11,6 @@
     "vitest": "^1.6.0",
     "tsup": "^8.0.2",
     "@types/node": "^20.12.7"
-  }
+  },
+  "author": "Jamirul Islam <jamirul.developer@gmail.com>"
 }
