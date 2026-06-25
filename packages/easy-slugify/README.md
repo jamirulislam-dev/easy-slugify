@@ -17,13 +17,13 @@ Install using your preferred package manager:
 
 ```bash
 # Using npm
-npm install easy-slugify
+npm install @jamirul-islam/easy-slugify
 
 # Using pnpm
-pnpm add easy-slugify
+pnpm add @jamirul-islam/easy-slugify
 
 # Using yarn
-yarn add easy-slugify
+yarn add @jamirul-islam/easy-slugify
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ yarn add easy-slugify
 ### ES Modules (ESM)
 
 ```typescript
-import { slugify } from 'easy-slugify';
+import { slugify } from '@jamirul-islam/easy-slugify';
 
 console.log(slugify('Hello, World!')); 
 // Output: 'hello-world'
@@ -43,7 +43,7 @@ console.log(slugify('  My Awesome   Product!  '));
 ### CommonJS (CJS)
 
 ```javascript
-const { slugify } = require('easy-slugify');
+const { slugify } = require('@jamirul-islam/easy-slugify');
 
 console.log(slugify('Hello, World!')); 
 // Output: 'hello-world'
