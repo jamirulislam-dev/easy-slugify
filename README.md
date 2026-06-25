@@ -4,7 +4,7 @@ This repository uses a `pnpm` workspace to develop and maintain the `easy-slugif
 
 ## Packages
 
-- **[`@jamirul-islam/easy-slugify`](./packages/easy-slugify)**: A lightweight, fast, and dependency-free TypeScript library to convert any string into a URL-friendly slug.
+- **[`@jamirulislam/easy-slugify`](./packages/easy-slugify)**: A lightweight, fast, and dependency-free TypeScript library to convert any string into a URL-friendly slug.
 
 ## Development
 
@@ -26,4 +26,4 @@ To run tests across all workspace packages:
 pnpm test
 ```
 
-For package usage and installation guidelines, please refer to the [@jamirul-islam/easy-slugify Package README](./packages/easy-slugify/README.md).
+For package usage and installation guidelines, please refer to the [@jamirulislam/easy-slugify Package README](./packages/easy-slugify/README.md).
